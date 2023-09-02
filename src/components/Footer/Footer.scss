@@ -1,0 +1,74 @@
+@import '../../Styles/vars';
+.footer{
+    background-color: $Primary-titles;
+    color: $primary-color;
+    padding: 27px;
+    @media(min-width: $desktop){
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    &__location{
+        h3{
+            font-size: 22px;
+            margin: 0;
+            padding-bottom: 14px;
+        }
+        hr{
+            margin: 0;
+            width: 40px; 
+            height: 4px;
+            border: none; 
+            background-color:$primary-color;
+        }
+        &--text{
+            list-style: none;
+            padding: 0;
+            &-item{
+                padding-bottom: 12px; 
+                font-size: 15px; 
+            } 
+        }
+    }
+    &__contact{
+        display: flex;
+        justify-content: center;
+        &--btns{
+            display: flex;
+            flex-direction: column;
+            padding: 0px 20px;
+            a{
+                text-decoration: none;
+            }
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 264px;
+                height: 51px;
+                font-size: 12px;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                font-weight: bold;
+                svg{
+                    font-size: 20px;
+                    padding-right: 6px;
+                }
+            }  
+        }
+    }
+    &__branding{
+       &--list{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        &-text{
+            text-align: center;
+            p{
+                font-size: 10px;
+            }  
+        }
+       } 
+    }
+}

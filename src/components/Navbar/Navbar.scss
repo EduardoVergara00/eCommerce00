@@ -1,0 +1,28 @@
+@import '../../Styles/vars';
+
+.nav{
+    display: none;
+    &__item{
+        color: $placeholder-text;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px;
+        background-color: $primary-color;
+        margin: 0 12px;
+        cursor: pointer;
+        &:hover{
+            background-color:$underliner;
+        }
+        .navigatelink{
+            text-decoration: none;
+            color: $placeholder-text;
+        }
+    }
+    @media (min-width: 1025px){
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0px 6px;
+        margin: 0; 
+    }
+}

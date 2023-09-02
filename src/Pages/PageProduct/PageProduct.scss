@@ -1,0 +1,159 @@
+@import '../../Styles/vars';
+
+.pdpsection{
+    padding: 25px;
+    h3{
+        display: inline-flex;
+    }
+    a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: $Primary-titles;
+        font-weight: bold; 
+    }
+    &__backpage{
+        padding: 20px 0; 
+        span {
+            padding-left: 5px;
+        }
+    }
+    &__fullproduct{
+        background-color: $primary-color;
+        border: 1px solid $dots; 
+        color: $placeholder-text;
+        @media(min-width: $desktop){
+            display: flex;
+        }
+
+        .section__image {
+            margin: 20px;
+            .mainimage {
+                width: 75%;
+            }
+            @media(min-width: $desktop){
+                display: flex;
+                flex-direction: row-reverse;
+                width: 50%;
+            }
+            &--pics{
+                display: flex;
+                border: 1px solid $dots;
+                @media(min-width: $desktop){
+                    display: block !important;
+                }
+                img {
+                    height: 100%;
+                }
+                .image__one{
+                    border-right: 1px solid $dots;
+                }
+            }
+            .section__details {
+                &--selector {
+                    font-size: 12px;
+                    height: 20px;
+                    width: 125px; 
+                }
+            }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            } 
+        }
+        .section__details{
+            margin: 20px;
+            @media(min-width: $desktop){
+                width: 50%;
+            }
+            &--title {
+                padding-top: 16px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            &--name{
+                margin: 0;
+                color: $Primary-titles; 
+            }
+            &--description{
+                font-size: 14px;
+                color: $Primary-titles; 
+            }
+            &--select{
+                padding-top: 10px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            &--sdk{
+                p{
+                    padding-top: 10px;
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+                .color__one{
+                    margin: 6px;
+                    background: $Primary-titles;
+                    border: none;
+                    border-radius: 100%;
+                    width: 25px;
+                    height: 25px; 
+                }
+                .color__two{
+                    margin: 6px;
+                    background: violet;
+                    border: none;
+                    border-radius: 100%;
+                    width: 25px;
+                    height: 25px; 
+                }
+                .color__three{
+                    margin: 6px;
+                    background: blue;
+                    border: none;
+                    border-radius: 100%;
+                    width: 25px;
+                    height: 25px; 
+                }
+                .color__four{
+                    margin: 6px;
+                    background: burlywood;
+                    border: none;
+                    border-radius: 100%;
+                    width: 25px;
+                    height: 25px; 
+                }
+                .color__five{
+                    margin: 6px;
+                    background: lightgreen;
+                    border: none;
+                    border-radius: 100%;
+                    width: 25px;
+                    height: 25px; 
+                }
+                .color__six{
+                    margin: 6px;
+                    background: red;
+                    border: none;
+                    border-radius: 100%;
+                    width: 25px;
+                    height: 25px; 
+                }
+            }
+            &--price{
+                font-size: 25px;
+                font-weight: bold;
+                color:$Primary-titles;
+            }
+            &--btn{
+                color: $primary-color;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 10px;
+                background-color: $Primary-titles;
+                border: 1px solid $dots;
+                cursor: pointer;
+            }
+        }
+    }
+}

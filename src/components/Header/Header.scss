@@ -1,0 +1,59 @@
+@import '../../Styles/vars';
+.header{
+   flex-grow: 1; 
+   background-color: $primary-color;
+   &__bar{
+    position: static;
+    .searchmobile {
+        @media (min-width:$desktop){
+            display: none;
+        }
+    }
+   }
+   &__toolbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+    &--menu {
+        padding: 0 12px;
+        @media (min-width: $desktop){
+            display: none;
+        }
+        svg{
+            font-size: 30px;
+            color: $Primary-titles;
+        }
+    }
+
+    .searchdesktop {
+        display: none;
+        @media (min-width: $desktop){
+            display:flex;
+            width: 100%;
+        }
+    }
+    &--cart{
+        padding: 0 12px;
+        display: flex;
+        svg{
+            font-size: 30px;
+            color: $Primary-titles;
+        }
+    }
+    &--title{
+        padding: 0 12px;
+        .navigatelink {
+            text-decoration: none;
+        }
+        h2{
+            color: $Primary-titles;
+            font-weight: 900;
+            margin: 12px;
+            font-size: 30px;
+        }
+    }
+    }
+}

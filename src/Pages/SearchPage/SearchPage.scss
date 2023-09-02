@@ -1,0 +1,16 @@
+@import '../../Styles/vars';
+.research{
+    &__text{
+        text-align: center;
+        color: $placeholder-text;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    &__link{
+        p{
+            text-align: center;
+            color: $placeholder-text;
+            font-size: 14px;
+        }
+    }
+}

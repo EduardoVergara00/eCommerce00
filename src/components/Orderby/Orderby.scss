@@ -1,0 +1,14 @@
+@import '../../Styles/vars';
+
+.orderby{
+    padding: 10px 35px;
+    &__label{
+        padding-right: 5px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    &__selector{
+        font-size: 12px;
+        height: 20px;
+    }
+}

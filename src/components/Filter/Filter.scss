@@ -1,0 +1,81 @@
+@import '../../Styles/vars';
+
+.notOpen{
+    display: none !important;
+    @media(min-width: $desktop){
+        display: block !important;
+    } 
+}
+.isOpen{
+    display: block !important;
+}
+.containertofilter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media(min-width: $desktop){
+        display: block; 
+    }
+}
+.filter{
+    list-style: none;
+    padding: 2px 0;
+    margin: 0;
+
+    &__tittle{
+        font-size: 16px;
+        cursor: pointer;
+        color: $primary-color;
+        font-weight: bold;
+        width: 150px;
+        height: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        padding: 2px;
+        background-color:$Primary-titles;
+        border: 1px solid #BFBFBF;
+
+        @media(min-width: $desktop){
+            text-align: initial;
+            cursor: default;
+            border: none;
+            color: $Primary-titles;
+            padding: 0;
+            margin: 0;
+            background-color:$primary-color;
+        }
+    }
+    @media(min-width: $desktop){
+        display: block;
+    }
+    .container{
+        display: flex;
+    }
+    .categories{
+        display: flex;
+        align-items: baseline;
+        text-transform: capitalize;
+        @media(min-width: $desktop){
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__name{
+            font-weight: bold;
+            padding-right: 6px;
+            font-size: 16px;
+        }
+         .options{
+            list-style: none;
+            padding: 6px;
+            &__box{
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+            }
+            @media(min-width: $desktop){
+                padding: 0;
+            }
+        }
+    }
+}

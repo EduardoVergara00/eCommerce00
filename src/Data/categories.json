@@ -1,0 +1,107 @@
+[
+    {
+        "categoryId": 1,
+        "categoryName": "Ropa Mujer",
+        "subCategory": [
+            {
+                "subCategoryId": 11,
+                "checked": false,
+                "subCategoryName": "top"
+            },
+            {
+                "subCategoryId": 12,
+                "checked": false,
+                "subCategoryName": "sandals"
+            },
+            {
+                "subCategoryId": 13,
+                "checked": false,
+                "subCategoryName": "accessories"
+            }
+        ]
+    },
+    {
+        "categoryId": 2,
+        "categoryName": "Ropa Hombre",
+        "subCategory": [
+            {
+                "subCategoryId": 21,
+                "checked": false,
+                "subCategoryName": "jeans"
+            },
+            {
+                "subCategoryId": 22,
+                "checked": false,
+                "subCategoryName": "shoes"
+            },
+            {
+                "subCategoryId": 23,
+                "checked": false,
+                "subCategoryName": "belt"
+            }
+        ]
+    },
+    {
+        "categoryId": 3,
+        "categoryName": "Electronicos",
+        "subCategory": [
+            {
+                "subCategoryId": 30,
+                "checked": false,
+                "subCategoryName": "Telefonos"
+            },
+            {
+                "subCategoryId": 31,
+                "checked": false,
+                "subCategoryName": "Tablets"
+            },
+            {
+                "subCategoryId": 32,
+                "checked": false,
+                "subCategoryName": "Laptops/Ordenadores"
+            }
+        ]
+    },
+    {
+        "categoryId": 4,
+        "categoryName": "Abarrotes",
+        "subCategory": [
+            {
+                "subCategoryId": 40,
+                "checked": false,
+                "subCategoryName": "Higiene Personal"
+            },
+            {
+                "subCategoryId": 41,
+                "checked": false,
+                "subCategoryName": "Vinos Y Licores"
+            },
+            {
+                "subCategoryId": 42,
+                "checked": false,
+                "subCategoryName": "Lacteos"
+            }
+        ]
+    },
+    {
+        "categoryId": 5,
+        "categoryName": "VideoJuegos",
+        "subCategory": [
+            {
+                "subCategoryId": 50,
+                "checked": false,
+                "subCategoryName": "PC"
+            },
+            {
+                "subCategoryId": 51,
+                "checked": false,
+                "subCategoryName": "XBOX"
+            },
+            {
+                "subCategoryId": 52,
+                "checked": false,
+                "subCategoryName": "MAS"
+            }
+        ]
+    } 
+]

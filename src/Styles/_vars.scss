@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@400;600;700;900&family=Ubuntu:wght@500&display=swap');
+
+//font 
+$text-font-nunito:'Nunito', sans-serif;
+$text-font-lato:'Lato', sans-serif;
+$text-font-ubuntu:'Ubuntu', sans-serif;
+
+//colors
+$primary-color: #FFFFFF;
+$Primary-titles: #000000;
+$underliner:#C0C0C0;
+$dots:#BFBFBF;
+$secondary-color:#F2F2F2;
+$placeholder-text: #585858;
+$secondary-titles:#333333;
+$details: #F8475F;
+$dots-carrousel: #BDBDBD;
+$details-text:#7A7A7A;
+
+
+//media queries
+$mobile:480px;
+$desktop: 1025px;

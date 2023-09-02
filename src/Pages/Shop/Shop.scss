@@ -1,0 +1,27 @@
+@import '../../Styles/vars';
+
+.section{
+    padding: 0 25px 25px 25px;
+    
+    &__orderby{
+        display: flex;
+        justify-content: flex-end;
+        @media(max-width: $desktop) {
+            display: none;
+        }
+    }
+    &__container{
+
+        @media(min-width: $desktop) {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+        }
+        .orderby{
+            display: flex;
+            justify-content: center;
+            @media(min-width: $desktop) {
+                display: none;
+            }
+        }
+    }
+}

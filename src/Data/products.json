@@ -1,0 +1,354 @@
+[
+  {
+    "productId": 1,
+    "productName": "OtroProducto",
+    "productDetail": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+    "category": "recommended",
+    "color": ["color__three", "color__one", "color__two"],
+    "gender":{
+      "categoryName": "woman",
+      "subCategory":"sandals"
+    },
+    "size": ["30","31","32","33", "33", "34", "35", "36","37", "38", "39", "40", "41", "42","43","44","45"],
+    "stars": 4,
+    "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+    "listPrice": null,
+    "price": 3500,
+    "installments": [
+      {
+        "quantity": 1,
+        "value": 3500
+      }
+    ]
+  },
+  {
+    "productId": 2,
+    "productName": "OtroProducto",
+    "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+    "category": "recommended",
+    "color": [ "color__three", "color__one"],
+    "gender":{
+      "categoryName": "woman",
+      "subCategory":"sandals"
+    },
+    "size": ["34", "35", "36", "37", "38", "39"],
+    "stars": 2,
+    "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+    "listPrice": 1500,
+    "price": 1500,
+    "installments": [
+      {
+        "quantity": 1,
+        "value": 1500
+      }
+    ]
+  },
+  {
+    "productId": 3,
+    "productName": "OtroProducto",
+    "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+    "category": "featured",
+    "color": ["color__three", "color__two"],
+    "gender":{
+      "categoryName": "woman",
+      "subCategory":"top"
+    },
+    "size": [ "37", "38", "39", "40"],
+    "stars": 2,
+    "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+    "listPrice": 32900,
+    "price": 29900,
+    "installments": [
+      {
+        "quantity": 1,
+        "value": 2990
+      }
+    ]
+  },
+  {
+    "productId": 4,
+    "productName": "OtroProducto",
+    "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+    "category": "recommended",
+    "color": ["color__three", "color__one", "color__two"],
+    "gender":{
+      "categoryName": "woman",
+      "subCategory":"sandals"
+    },
+    "size": ["x", "s", "m", "l", "xl"],
+    "stars": 5,
+    "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+    "listPrice": null,
+    "price": 7990,
+    "installments": [
+      {
+          "quantity": 1,
+          "value": 2990
+        }
+    ]
+  },
+  {
+      "productId": 5,
+      "productName": "OtroProducto",
+      "productDetail": "lorem ipsumfsfic dsidhffk jfdh djdhdj.",
+      "category": "featured",
+      "color": ["color__three","color__two", "color__four", "color__five"],
+      "gender":{
+        "categoryName": "woman",
+        "subCategory":"top"
+      },
+      "size": ["38", "39", "40", "41"],
+      "stars": 3,
+      "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+      "listPrice": null,
+      "price": 25990,
+      "installments": [
+        {
+          "quantity": 1,
+          "value": 2887
+        }
+      ]
+    },
+    {
+      "productId": 6,
+      "productName": "OtroProducto",
+      "productDetail": "sumfsfic dsidhffk jfdh djdhdj.",
+      "category": "recommended",
+      "color": ["color__one", "color__three", "color__two", "color__five", "color__six"],
+      "gender":{
+        "categoryName": "woman",
+        "subCategory":"top"
+      },
+      "size": ["34", "35", "36", "37", "38", "39"],
+      "stars": 1,
+      "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+      "listPrice": 29900,
+      "price": 19900,
+      "installments": [
+        {
+          "quantity": 1,
+          "value": 4975
+        }
+      ]
+    },
+    {
+      "productId": 7,
+      "productName": "OtroProducto",
+      "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+      "category": "featured",
+      "color": ["color__two", "color__one", "color__three", "color__six", "color__four"],
+      "gender":{
+        "categoryName": "woman",
+        "subCategory":"accessories"
+      },
+      "size": ["34", "35", "36", "37", "38", "39", "40", "41"],
+      "stars": 4,
+      "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+      "listPrice": 32900,
+      "price": 29900,
+      "installments": [
+        {
+          "quantity": 1,
+          "value": 2990
+        }
+      ]
+    },
+    {
+      "productId": 8,
+      "productName": "OtroProducto",
+      "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+      "category": "featured",
+      "color": ["color__two", "color__one", "color__three", "color__four", "color__five"],
+      "gender":{
+        "categoryName": "woman",
+        "subCategory":"accessories"
+      },
+      "size": ["x", "s", "l", "m", "xl"],
+      "stars": 3,
+      "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+      "listPrice": null,
+      "price": 7990,
+      "installments": [
+          {
+              "quantity": 1,
+              "value": 2990
+            }
+      ]
+    },
+    {
+      "productId": 9,
+      "productName": "OtroProducto",
+      "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+      "category": "recommended",
+      "color": ["color__two", "color__three", "color__five"],
+      "gender":{
+        "categoryName": "men",
+        "subCategory":"shoes"
+      },
+      "size": [ "37", "38", "39", "40", "41"],
+      "stars": 4,
+      "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+      "listPrice": null,
+      "price": 25990,
+      "installments": [
+        {
+          "quantity": 1,
+          "value": 2887
+        }
+      ]
+    },
+    {
+      "productId": 10,
+      "productName": "OtroProducto",
+      "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+      "category": "recommended",
+      "color": [ "color__three", "color__one"],
+      "gender":{
+        "categoryName": "men",
+        "subCategory":"shoes"
+      },
+      "size": ["34", "35", "36", "37", "38", "39"],
+      "stars": 2,
+      "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+      "listPrice": 29900,
+      "price": 19900,
+      "installments": [
+        {
+          "quantity": 1,
+          "value": 4975
+        }
+      ]
+    },
+    {
+      "productId": 11,
+      "productName": "OtroProducto",
+      "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+      "category": "featured",
+      "color": ["color__two", "color__one"],
+      "gender":{
+        "categoryName": "men",
+        "subCategory":"shoes"
+      },
+      "size": [ "37", "38", "39", "40"],
+      "stars": 5,
+      "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+      "listPrice": 32900,
+      "price": 29900,
+      "installments": [
+        {
+          "quantity": 1,
+          "value": 2990
+        }
+      ]
+    },
+    {
+      "productId": 12,
+      "productName": "OtroProducto",
+      "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+      "category": "recommended",
+      "color": ["color__two", "color__one", "color__three"],
+      "gender":{
+        "categoryName": "men",
+        "subCategory":"belt"
+      },
+      "size": ["x", "s", "m", "l", "xl"],
+      "stars": 3,
+      "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+      "listPrice": null,
+      "price": 7990,
+      "installments": [
+        {
+            "quantity": 1,
+            "value": 2990
+          }
+      ]
+    },
+    {
+        "productId": 13,
+        "productName": "OtroProducto",
+        "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+        "category": "featured",
+        "color": ["color__two", "color__three", "color__four", "color__five", "color__six"],
+        "gender":{
+          "categoryName": "men",
+          "subCategory":"jeans"
+        },
+        "size": ["38", "39", "40", "41"],
+        "stars": 2,
+        "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+        "listPrice": null,
+        "price": 25990,
+        "installments": [
+          {
+            "quantity": 1,
+            "value": 2887
+          }
+        ]
+      },
+      {
+        "productId": 14,
+        "productName": "OtroProducto",
+        "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+        "category": "recommended",
+        "color": ["color__two", "color__one", "color__three", "color__four", "color__six"],
+        "gender":{
+          "categoryName": "men",
+          "subCategory":"jeans"
+        },
+        "size": ["34", "35", "36", "37", "38", "39"],
+        "stars": 4,
+        "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+        "listPrice": 29900,
+        "price": 19900,
+        "installments": [
+          {
+            "quantity": 1,
+            "value": 4975
+          }
+        ]
+      },
+      {
+        "productId": 15,
+        "productName": "OtroProducto",
+        "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+        "category": "featured",
+        "color": ["color__two", "color__one", "color__three", "color__six", "color__five"],
+        "gender":{
+          "categoryName": "men",
+          "subCategory":"belt"
+        },
+        "size": ["34", "35", "36", "37", "38", "39", "40", "41"],
+        "stars": 2,
+        "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+        "listPrice": 32900,
+        "price": 29900,
+        "installments": [
+          {
+            "quantity": 1,
+            "value": 2990
+          }
+        ]
+      },
+      {
+        "productId": 5,
+        "productName": "Videojuegos",
+        "productDetail": "little desccription of th product to capture clients attention dolelorem ipsumfsfic dsidhffk jfdh djdhdj.",
+        "category": "featured",
+        "color": ["color__one", "color__three"],
+        "gender":{
+          "categoryName": "men",
+          "subCategory":"accessories"
+        },
+        "size": ["x", "s", "l", "m", "xl"],
+        "stars": 3,
+        "imageUrl": "https://thumbs.dreamstime.com/b/empty-shopping-cart-vector-silhouette-empty-shopping-cart-vector-silhouette-isolated-white-background-metal-market-trolley-116674120.jpg",
+        "listPrice": null,
+        "price": 7990,
+        "installments": [
+            {
+                "quantity": 1,
+                "value": 2990
+              }
+        ]
+      }
+]

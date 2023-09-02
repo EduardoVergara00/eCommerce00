@@ -1,0 +1,85 @@
+@import '../../Styles/vars';
+.accessing{
+    max-width: 300px;
+    margin: 30px auto;
+    background: $primary-color;
+    border: 1px solid  $dots;
+    &__fieldset{
+        padding: 10px 0;
+    }
+    &__heading {
+        &--title{
+            text-align: center;
+            margin: 10px;  
+        }
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__fields{
+        &--item{
+            display: flex;
+            flex-direction: column;
+            label {
+                color: $placeholder-text;
+                font-weight: bold;
+                font-size: 12px;
+                padding: 5px 0;
+            }
+            input{
+                background-color: $primary-color;
+                color: $placeholder-text;
+                letter-spacing: 0.5px;
+                padding: 5px;
+                border: 1px solid $dots;
+                width: 250px;
+            }
+        }
+        &--forget{
+            display: flex;
+            
+            a{
+                padding: 0 10px;
+                text-decoration: none;
+                margin: 0px 10px;
+                display: flex;
+                span{
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: $Primary-titles;
+                    text-decoration: underline;
+                }
+            }
+            button{
+                color: $primary-color;
+                font-weight: bold;
+                background: $Primary-titles;
+                border: 1px solid $dots;
+                padding: 10px;
+                margin: 0 36px;   
+            }
+        }
+        &--account{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            align-items: baseline;
+            background: $secondary-color;
+            span{
+                font-size: 12px;
+                padding-right: 10px;
+                font-weight: bold;
+            }
+            button{
+                background-color: #FFFFFF;
+                border: 1px solid $dots;
+                padding: 8px;
+                color: $placeholder-text;
+                font-weight: bold;
+            }
+        }
+    }
+}
+

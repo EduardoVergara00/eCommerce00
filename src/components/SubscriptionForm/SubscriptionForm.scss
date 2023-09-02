@@ -1,0 +1,48 @@
+@import '../../Styles/vars';
+.fullform {
+    background-color: $secondary-color;
+    height: 260px;
+    padding: 10px;
+    &__subscribe{
+        &--text{
+            text-align: center;
+        }
+    }
+    h2{
+        text-align: center;
+    }
+    @media (min-width: $desktop){
+        height: 150px;
+    }
+    &__form{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input {
+            width: 260px;
+            height: 30px;
+            padding: 6px 12px;
+            border: none;
+            margin-bottom: 18px;
+            @media (min-width: $desktop){
+                margin: 0 10px;
+            }
+        }
+        @media (min-width: $desktop){
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            width: 75%;
+            margin: 0 auto;
+        }
+        button{
+            cursor: pointer;
+            color: $primary-color;
+            font-weight: 200;
+            background-color: $Primary-titles;
+            width: 285px;
+            height: 40px;
+        }
+    }
+}

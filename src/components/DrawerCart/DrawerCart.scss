@@ -1,0 +1,88 @@
+@import '../../Styles/vars';
+.cart {
+    display:flex;
+    cursor: pointer;
+    &__pop{
+        span{
+            background-color: $details;
+            border-radius: 100%;
+            color: $primary-color;
+            padding: 0 4px;
+            width: 8px;
+            font-size: 12px;
+        }
+    }
+}
+.cart__container{
+  &--heading{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 18px;
+    &-item{
+      & span:first-child {
+        font-weight: bold;
+        padding-right: 5px;
+        font-size: 18px;
+      }
+      & span:last-child {
+        font-size: 12px;
+      }  
+    }
+    &-btn{
+        & button:first-child {
+            border-right: none !important;
+            cursor: pointer;
+         }
+        & button:first-child, :last-child {
+            cursor: pointer;
+            color:$placeholder-text;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: $primary-color;
+            border: 1px solid $dots;
+            &:hover{
+                background-color:$underliner;
+            }
+        }
+    }
+  }
+  .baskets{
+    &__text{
+      text-align: center;
+      color: $placeholder-text;
+      font-size: 12px;
+    }
+  } 
+  &--footer{
+    border-top: 1px solid $dots;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    &-div{
+        margin-left: 16px;
+    }
+    & p:first-child{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    & p:last-child{
+        font-weight: bold;
+        font-size: 22px;
+    }
+    button {
+        letter-spacing: 0.5px;
+        font-weight: bold;
+        padding: 10px;
+        color: $primary-color;
+        background-color: $Primary-titles;
+        margin-right: 16px;
+        cursor: pointer;
+    }
+  } 
+}
