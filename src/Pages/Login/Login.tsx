@@ -61,7 +61,7 @@ function Login() {
                 </div>
                 <div>
                   <div className='accessing__fields--item'>
-                    <label> *Password</label>
+                    <label> *Contraseña</label>
                     <input
                       name="name"
                       type="password"
