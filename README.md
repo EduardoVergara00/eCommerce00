@@ -34,3 +34,5 @@ In this project you can do the following things:
 - Sign in and Sign up
 - Make payments
 - Buy products
+
+* Please feel free to check "package-lock.json" to check dependencies
