@@ -75,7 +75,7 @@ function PageProduct() {
                     <p className='section__details--select'>Escribe tu producto</p>
                 <div>
                 <select className='section__details--selector'>
-                    <option>--Select--</option>
+                    <option>--Seleccionar--</option>
                     {
                         item?.size.map((item)=>(
                             <option> {item} </option>
@@ -84,7 +84,7 @@ function PageProduct() {
                 </select>
                 </div>
                 <div className='section__details--sdk'>
-                    <p>Choose color</p>
+                    <p>Selecciona el color</p>
                     {
                         item?.color.map((item)=>(
                             <input type='button'className={item}/>
@@ -95,7 +95,7 @@ function PageProduct() {
                 <input 
                     className='section__details--btn'
                     type='button'
-                    value='Add To Cart'
+                    value='Agregar al Carrito'
                     onClick={handleBuy}
                 />
                 </div>

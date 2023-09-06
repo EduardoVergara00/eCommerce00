@@ -17,10 +17,10 @@ function Login() {
   const handleSubmit =(e:any)=>{
     e.preventDefault();
     Swal.fire({
-      title: 'Sucess!',
-      text: 'Succesful Login',
+      title: 'Logeado!',
+      text: 'Te has logeado correctamente',
       icon: 'success',
-      confirmButtonText: 'Ok'
+      confirmButtonText: 'OK'
     })
     navigate(`/`);
   }
@@ -55,7 +55,7 @@ function Login() {
                       placeholder='Introduce tu e-Mail'
                       required
                       min="3"
-                      max="30"
+                      max="50"
                     />
                   </div>
                 </div>
@@ -70,7 +70,7 @@ function Login() {
                       placeholder='Introduce tu contraseña'
                       required
                       min="3"
-                      max="30"
+                      max="50"
                     />
                   </div>
                 </div>
